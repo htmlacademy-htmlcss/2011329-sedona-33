@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/pt-sans-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #fbf7f4;
+  text-align: center; 
+  }
+
+  .page-header {
+    color: #000000;
+    background-color: #E5E5E5;
+    width: 1060;
+    height: 70;
+  }
+
+  .navigation-link {
+    font-family: "PT Sans", sans-serif; 
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+    color: #000000;
+    background-color: #E5E5E5;
+    text-decoration: none;
+  } 
+  
+  .main-index {
+    color: #000000;
+    background-color: #ffffff;
+    background-image: url("images/index-bg.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    width: 1200;
+    height: 485;
+  }
+
+  .advantages-list {
+    text-align: center;
+  }
+
+  .advantages-title {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24;
+    line-height: 35;
+    text-transform: uppercase;
+  }
+
+  .advantages-item-services h4 {
+  text-align: center;
+  font-size: 24;
+  line-height: 28;
+  text-transform: uppercase;
+  font-weight: 700;
+ }
+
+ .advantages-item-services p {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  
+ }
+  
+  
+ 
+ 
+ .page-footer {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.social-media a {
+  width: 10;
+  height: 18;
+  text-decoration: none;
+}
+
+.footer-contacts-address-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
