@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Страница католога</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="portfolio-decorative.css">
+    <link rel="stylesheet" href="portfolio-outline.css">
   </head>
   <body>
     <header class="page-header">
@@ -108,10 +110,10 @@
             <button class="button" type="reset">Сбросить</button>
           </section>
         </form>
-        <h3>Найдено гостиниц: 38</h3>
+        <h3 class="found">Найдено гостиниц: 38</h3>
         <select class="select-control" aria-label="Сортировка">            
-            <option value="cheap">Сначала дешёвые</option>
-            <option value="expensive">Сначала дорогие</option>
+            <option class="select-control-cheap" value="cheap">Сначала дешёвые</option>
+            <option class="select-control-cheap" value="expensive">Сначала дорогие</option>
         </select>
         <ul class="photo-menu">
         <li class="photo-menu-button">
@@ -138,10 +140,10 @@
             </a>
             <b class="hotel-card-price">Гостиница</b>
             <b class="hotel-card-price">От 4000 ₽</b>
-            <a class="hotel-card-button button" href="#">Подробнее</a>
-            <a class="hotel-card-button button" href="#">В избранное</a>
+            <a class="hotel-card-button-btn" href="#">Подробнее</a>
+            <a class="hotel-card-button-btn" href="#">В избранное</a>
             <b class="hotel-card-rating">&#9734;&#9734;&#9734;&#9734;</b>
-            <b class="hotel-card-price">Рейтинг: 8,5</b>
+            <b class="hotel-card-price-rating">Рейтинг: 8,5</b>
           </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="product.html">
@@ -150,10 +152,10 @@
             </a>
             <b class="hotel-card-price">Гостиница</b>
             <b class="hotel-card-price">От 3000 ₽</b>
-            <a class="hotel-card-button button" href="#">Подробнее</a>
-            <a class="hotel-card-button button" href="#">В избранное</a>
+            <a class="hotel-card-button-btn" href="#">Подробнее</a>
+            <a class="hotel-card-button-btn" href="#">В избранное</a>
             <b class="hotel-card-rating">&#9734;&#9734;&#9734;</b>
-            <b class="hotel-card-price">Рейтинг: 8,9</b>
+            <b class="hotel-card-price-rating">Рейтинг: 8,9</b>
           </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="product.html">
@@ -162,10 +164,10 @@
             </a>
             <b class="hotel-card-price">Гостиница</b>
             <b class="hotel-card-price">От 2000 ₽</b>
-            <a class="hotel-card-button button" href="#">Подробнее</a>
-            <a class="hotel-card-button button" href="#">В избранное</a>
+            <a class="hotel-card-button-btn" href="#">Подробнее</a>
+            <a class="hotel-card-button-btn" href="#">В избранное</a>
             <b class="hotel-card-rating">&#9734;&#9734;</b>
-            <b class="hotel-card-price">Рейтинг: 9,2</b>
+            <b class="hotel-card-price-rating">Рейтинг: 9,2</b>
           </li>
           <li class="hotel-card">
             <a class="hotel-card-link" href="product.html">
@@ -174,12 +176,13 @@
             </a>
             <b class="hotel-card-price">Гостиница</b>
             <b class="hotel-card-price">От 3000 ₽</b>
-            <a class="hotel-card-button button" href="#">Подробнее</a>
-            <a class="hotel-card-button button" href="#">В избранное</a>
+            <a class="hotel-card-button-btn" href="#">Подробнее</a>
+            <a class="hotel-card-button-btn" href="#">В избранное</a>
             <b class="hotel-card-rating">&#9734;&#9734;</b>
-            <b class="hotel-card-price">Рейтинг: 9,2</b>
+            <b class="hotel-card-price-rating">Рейтинг: 9,2</b>
           </li>
         </ul>
+        <button class="button-pagination-show-more" type="button">Загрузить ещё</button>
           <ul class="pagination">
             <li class="pagination-item">
               <a class="pagination-link pagination-prev pagination-disabled">
@@ -202,18 +205,33 @@
               <a class="pagination-link" href="#">5</a>
             </li>
             <li class="pagination-item">
+              <a class="pagination-link" href="#">6</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">7</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">8</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">9</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-link" href="#">10</a>
+            </li>
+            <li class="pagination-item">
               <a class="pagination-link pagination-next" href="#">
                 <span class="visually-hidden">Следующая страница</span>
               </a>
             </li>
           </ul>
-          <p>Гостиниц на странице:</p>
+          <p class="number">Гостиниц на странице:</p>
           <select class="select-control" aria-label="Сортировка">            
-            <option value="cheap">4</option>
+            <option class="number" value="cheap">4</option>
         </select>    
-      <section>
+      <section class="subscription">
         <h2 class="interest-title">Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское! </p>
+        <p class="interest-texte">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="newsletter-email">Email</label>
         <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>>
@@ -240,9 +258,11 @@
          </a>
         </li>
       </ul>
-      <p class="footer-contacts-address-phone">+7 812 812-12-12</p>
-      <img class="footer-logo" src="images/footer-logo/footer_logo_htmlacademy.png" alt="Логотип htmlacademy" width="115" height="70">
-    </div>
+      <<p class="footer-contacts-address-phone">
+        <a href="tel:+78128121212">+7 812 812-12-12</a>
+      </p>
+      <img class="footer-logo" src="images/footer-logo/footer_logo_htmlacademy.svg" alt="Логотип htmlacademy" width="115" height="70">
+      </div>
     </footer>
   </body>
 </html>
