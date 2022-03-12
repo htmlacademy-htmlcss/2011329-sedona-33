@@ -35,6 +35,11 @@ body {
   line-height: 24px;
   color: #000000;
   background-color: #FFFFFF;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+
 }
 
 .page-header {
@@ -42,8 +47,25 @@ body {
   background-color: #E5E5E5;
 }
 
+.navigation {
+  display: flex;
+  width: 1060px;
+  height: 70px;
+  margin: 0 auto;
+
+}
+.navigation-list {
+  width: 455px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  max-width: 300px;
+  margin-left: auto;
+}
+
 .navigation-link {
-  font-family: inherit;
   line-height: 26px; 
   font-size: 20px;
   font-weight: 700;
@@ -51,6 +73,14 @@ body {
   color: #000000;
   text-decoration: none;
 }
+
+.main-container {
+  flex-grow: 1;
+}
+
+html { 
+  height: 100%;
+} 
 
 .main-index {
   color: #000000;
@@ -62,15 +92,49 @@ body {
   height: 485px;
 }
 
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
 .advantages-list {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-item {
+  width: 400px;
+  height: 384px;
 }
 
 .advantages-title {
-  font-family: inherit;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+}
+
+.index-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+ }
+
+ .services {
+  width: 400px;
+  text-transform: uppercase;
+}
+
+.gallery {
+  width: 800px;
 }
 
 .advantages-item-services h4 {
@@ -136,8 +200,23 @@ body {
 .page-footer {
   color: #000000;
   background-color: #ffffff;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
   
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 184px;
+  height: 86px;
+  right: 40px;
+  top: 40px;
+}
+
 .social-media a {
   width: 10px;
   height: 18px;
@@ -149,8 +228,19 @@ body {
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
-  color: #000000;
+  color: #000000;  
+  width:720px;
+  height: 50px;  
+  right: 240px;
+  left: 240px;
 }  
+
+.footer-logo {
+  width: 115px;
+  height: 34px;
+  right: 72px;
+  left: 1013px;
+}
 
 .inner-header-title {
   font-weight: 700;
@@ -163,6 +253,19 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
+}
+
+.catalog-products {
+  display: flex;
+}
+
+.catalog-filter {
+  width: 1200px;
+  margin-right: 40px;
+}
+
+.catalog-right-column {
+  width: 1056px;
 }
 
 .catalog-filter-title {
