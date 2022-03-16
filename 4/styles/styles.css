@@ -137,9 +137,10 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -152,7 +153,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #FFFFFF
+  color: #FFFFFF;
   margin-bottom: 230px; 
   margin-top: 98px;
 }
@@ -160,7 +161,7 @@ body {
 .advantages-title-number {
   font-size: 18px;
   line-height: 21px;
-  color: #FFFFFF
+  color: #FFFFFF;
   margin-bottom: 183px; 
   margin-top: 180px;
 }
@@ -168,7 +169,7 @@ body {
 .advantages-title-inf {
   font-size: 18px;
   line-height: 21px;
-  color: #FFFFFF
+  color: #FFFFFF;
   margin-bottom: 234px; 
   margin-top: 108px;
 }
@@ -177,7 +178,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #000000
+  color: #000000;
   margin-bottom: 184px; 
   margin-top: 172px;
   margin-left: 75px;
@@ -187,7 +188,7 @@ body {
 .opportunities-inf {
   font-size: 18px;
   line-height: 21px;
-  color: #000000
+  color: #000000;
   margin-bottom: 232px; 
   margin-top: 79px;
   margin-left: 75px;
@@ -198,7 +199,7 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #000000
+  color: #000000;
   margin-bottom: 230px; 
   margin-top: 98px;
 }
@@ -206,7 +207,7 @@ body {
 .advantages-title-serial-number {
   font-size: 18px;
   line-height: 21px;
-  color: #000000
+  color: #000000;
   margin-bottom: 183px; 
   margin-top: 180px;
 }
@@ -214,7 +215,7 @@ body {
 .advantages-title-serial-inf {
   font-size: 18px;
   line-height: 21px;
-  color: #000000
+  color: #000000;
   margin-bottom: 234px; 
   margin-top: 108px;
 }
@@ -250,7 +251,7 @@ body {
   line-height: 36px;
   font-size: 30px;
   font-weight: 700;
-  color: #000000
+  color: #000000;
 }
   
 .interest-texte {
@@ -259,7 +260,7 @@ body {
   line-height: 26px;
   font-size: 22px;
   font-weight: 400;
-  color: #333333
+  color: #333333;
 }
 
 .main-subscription {
@@ -277,7 +278,7 @@ body {
   line-height: 36px;
   font-size: 30px;
   font-weight: 700;
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 .main-subscription-text {
@@ -286,7 +287,7 @@ body {
   line-height: 26px;
   font-size: 22px;
   font-weight: 400;
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 .page-footer {
@@ -361,7 +362,7 @@ body {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 .breadcrumbs {
@@ -432,7 +433,7 @@ body {
 .control-input {
   font-size: 18px;
   line-height: 23px;
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 .found {
