@@ -550,3 +550,9 @@ body {
 .hotel-card:nth-child(3n) {
   margin-right: 0;
 }
+
+.hotel-card-image {
+  width: 300px;
+  height: 206px;
+  object-fit: contain;
+}
